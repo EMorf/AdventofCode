@@ -17,8 +17,6 @@ procedure Day_2 is
       elsif area3 <= area1  and then area3 <= area2 then
          min_side := area3;
       end if;
-
-
       return 2 * (area1+ area2 +area3) + min_side;
    end GetWrap;
 
