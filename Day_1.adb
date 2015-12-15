@@ -16,7 +16,7 @@ procedure Day_1 is
 begin
    Open (File => Input,
          Mode => In_File,
-         Name => "input");
+         Name => "day_1");
 
    while (not End_Of_File (Input)) loop
 
