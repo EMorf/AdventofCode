@@ -1,7 +1,7 @@
 with Ada.Sequential_IO;
 with Ada.Text_IO;
 
-procedure myMain is
+procedure Day_1 is
 
    package Character_IO is new Ada.Sequential_IO(Character);
    use Character_IO;
@@ -40,4 +40,4 @@ begin
 
    Ada.Text_IO.Put_Line("In the end, he will reach floor #" & Integer'Image(Current_Floor));
    Ada.Text_IO.Put_Line("Basement is reached in position #" & Integer'Image(Position));
-end myMain;
+end Day_1;
