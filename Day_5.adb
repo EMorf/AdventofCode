@@ -14,7 +14,7 @@ procedure main is
 begin
    Open (File => Input,
          Mode => In_File,
-         Name => "input.txt");
+         Name => "day_5_input.txt");
    while (not End_Of_File(Input)) loop
       declare
          Cur_Line   : String := Get_Line(Input);
