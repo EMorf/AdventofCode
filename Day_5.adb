@@ -1,7 +1,7 @@
 with Ada.Text_IO; use Ada.Text_IO;
 with Ada.Strings.Fixed;  use Ada.Strings.Fixed;
 
-procedure main is
+procedure Day_5 is
 
    Input, Output : File_Type;
    Vowels        : Natural := 0;
@@ -84,4 +84,4 @@ begin
    end loop;
 
    Put_Line(Integer'Image(Nice));
-end main;
+end Day_5;
